@@ -1,0 +1,17 @@
+body {
+    background-color: aliceblue;
+    position: relative;
+}
+
+.about {
+    width: 50%;
+    height: 150px;
+    position: relative;
+    /* border: 10px; */
+}
+
+.use {
+    width: 100%;
+    height: 90px;
+    position: inherit;
+}

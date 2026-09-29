@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Payment Receipt</title>
+  <!-- Google Fonts: Roboto & Material Symbols -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <div class="mobile-container">
+
+    <!-- Top Navigation Bar -->
+    <div class="app-bar" onclick="window.location.href='second/about.html'">
+      <button class="icon-btn" aria-label="Back">
+        <span class="material-symbols-outlined">arrow_back</span>
+      </button>
+      <div class="app-bar-actions">
+        <button class="icon-btn" aria-label="Help">
+          <span class="material-symbols-outlined">info</span>
+        </button>
+        <button class="icon-btn" aria-label="More options">
+          <span class="material-symbols-outlined">more_vert</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Payment Receipt Summary -->
+    <div class="content-area">
+      <div class="avatar" contenteditable="true">A</div>
+      <div class="recipient-text" contenteditable="true">To FIRST SECOND</div>
+      <div class="amount" contenteditable="true">₹00</div>
+
+      <button class="pay-again-btn">Pay again</button>
+
+      <div class="status-badge">
+        <span class="material-symbols-outlined status-icon">check_circle</span>
+        <span>Completed</span>
+      </div>
+
+      <div class="status-divider"></div>
+      <div class="timestamp" contenteditable="true">1 Oct 2026, 7:10 am</div>
+
+      <!-- Bank & Transaction Details Card -->
+      <div class="card">
+        <div class="card-header">
+          <div class="bank-brand">
+            <div class="bank-logo">
+              <span class="logo-triangle-blue"></span>
+              <span class="logo-triangle-yellow"></span>
+            </div>
+            <div class="bank-name" contenteditable="true">Canara Bank 5393</div>
+          </div>
+          <span class="material-symbols-outlined" style="color: #444746;">keyboard_arrow_down</span>
+        </div>
+
+        <div class="card-divider"></div>
+
+        <div class="detail-group">
+          <div class="detail-label">UPI transaction ID</div>
+          <div class="detail-value" contenteditable="true">663873563745</div>
+        </div>
+
+        <div class="detail-group">
+          <div class="detail-label" contenteditable="true">To: ...</div>
+          <div class="detail-value" contenteditable="true">••••••6531@ibl on PhonePe</div>
+        </div>
+
+        <div class="detail-group">
+          <div class="detail-label" contenteditable="true">From: DHRUBO BASUMATARY (Canara Bank)</div>
+          <div class="detail-value" contenteditable="true">••••yman@okicici on Google Pay</div>
+        </div>
+
+        <div class="detail-group">
+          <div class="detail-label">Google transaction ID</div>
+          <div class="detail-value" contenteditable="true">CVDAgPindMvpSA</div>
+        </div>
+      </div>
+
+      <!-- UPI Branding -->
+      <div class="upi-section">
+        <span class="powered-by">POWERED BY</span>
+        <span class="upi-logo">UPI</span>
+      </div>
+    </div>
+
+    <!-- Bottom Actions -->
+    <div class="bottom-chips"  onclick="window.location.href='second/about.html'">
+      <button class="chip-btn">
+        <span class="material-symbols-outlined">help</span>
+        <span contenteditable="false">Having issues?</span>
+      </button>
+      <button class="chip-btn">
+        <span class="material-symbols-outlined">share</span>
+        <span contenteditable="false">Share</span>
+      </button>
+      <button class="chip-btn">
+        <span class="material-symbols-outlined">group_add</span>
+        <span contenteditable="false">Split expense</span>
+      </button>
+    </div>
+
+    <div class="bottom-bar"></div>
+  </div>
+
+</body>
+</html>
