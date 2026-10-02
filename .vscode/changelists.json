@@ -4,8 +4,7 @@
       "name": "Default",
       "files": [
         "second/about.html",
-        ".vscode/changelists.json",
-        "second/style2.css"
+        ".vscode/changelists.json"
       ]
     }
   ],
