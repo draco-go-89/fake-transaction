@@ -3,7 +3,9 @@
     {
       "name": "Default",
       "files": [
-        "second/about.html"
+        ".vscode/changelists.json",
+        "index.html",
+        "style.css"
       ]
     }
   ],
